@@ -1,8 +1,6 @@
-# SPDX-FileCopyrightText: 2025 Martin Sh <hemisputnik@proton.me>
-# SPDX-License-Identifier: CC0
-
 version = 1
 
 [[annotations]]
-path = "plugins/digitizer/kdeconnect_digitizer.json"
-SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+path = "**"
+SPDX-FileCopyrightText = "2026 TSUKUMO Akito <tsukumoakito99@duck.com>"
+SPDX-License-Identifier = "Apache-2.0 OR BSD-2-Clause OR BSD-3-Clause OR CC-BY-SA-4.0 OR CC0-1.0 OR GPL-2.0-only OR GPL-2.0-or-later OR GPL-3.0-only OR GPL-3.0-or-later OR LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-GPL OR LicenseRef-KDE-Accepted-LGPL OR MIT"
