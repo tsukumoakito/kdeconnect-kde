@@ -625,13 +625,14 @@ void LanLinkProvider::configureSocket(QSslSocket *socket)
     socket->setProxy(QNetworkProxy::NoProxy);
     socket->setSocketOption(QAbstractSocket::KeepAliveOption, QVariant(1));
 
-#if defined(TCP_KEEPIDLE) || defined(TCP_KEEPALIVE)
+#if defined(TCP_KEEPIDLE) || defined(TCP_KEEPALIVE) || defined(TCP_USER_TIMEOUT)
     // Detect dead connections in ~60s instead of the system default (~7875s on
     // Linux, ~7800s on macOS). Without this, a phone that silently disappears
     // (e.g. WiFi off) leaves a stale connection where isReachable() remains true
     // and sends fail without any user-visible error (BUG 476747).
     int fd = socket->socketDescriptor();
     if (fd >= 0) {
+#if defined(TCP_KEEPIDLE) || defined(TCP_KEEPALIVE)
         int idle = 30; // seconds before first keepalive probe
         int intvl = 10; // seconds between probes
         int cnt = 3; // failed probes before connection is dropped
@@ -643,6 +644,13 @@ void LanLinkProvider::configureSocket(QSslSocket *socket)
 #endif
         setsockopt(fd, IPPROTO_TCP, TCP_KEEPINTVL, &intvl, sizeof(intvl));
         setsockopt(fd, IPPROTO_TCP, TCP_KEEPCNT, &cnt, sizeof(cnt));
+#endif
+#ifdef TCP_USER_TIMEOUT
+        // Force unacknowledged retransmissions to abort after 60s
+        // (matches idle + intvl * cnt), preventing 15-minute retransmit delays
+        unsigned int userTimeout = 60000; // milliseconds
+        setsockopt(fd, IPPROTO_TCP, TCP_USER_TIMEOUT, &userTimeout, sizeof(userTimeout));
+#endif
     }
 #endif
 }
@@ -672,7 +680,8 @@ void LanLinkProvider::addLink(QSslSocket *socket, const DeviceInfo &deviceInfo)
             return;
         }
         // qCDebug(KDECONNECT_CORE) << "Reusing link to" << deviceId;
-        deviceLink->reset(socket);
+        deviceLink->reset(socket, deviceInfo);
+        Q_EMIT deviceInfoUpdated(deviceInfo);
     } else {
         bool isDeviceTrusted = KdeConnectConfig::instance().trustedDevices().contains(deviceInfo.id);
         if (!isDeviceTrusted && m_links.size() >= MAX_UNPAIRED_CONNECTIONS) {
@@ -685,8 +694,8 @@ void LanLinkProvider::addLink(QSslSocket *socket, const DeviceInfo &deviceInfo)
         // Socket disconnection will now be handled by LanDeviceLink
         disconnect(socket, &QAbstractSocket::disconnected, socket, &QObject::deleteLater);
         m_links[deviceInfo.id] = deviceLink;
+        Q_EMIT connectionReceived(deviceLink);
     }
-    Q_EMIT onConnectionReceived(deviceLink);
 }
 
 #include "moc_lanlinkprovider.cpp"
