@@ -231,7 +231,7 @@ PlasmaComponents.ItemDelegate {
                         icon.height: Kirigami.Units.iconSizes.small
                         visible: virtualmonitor.available
                         display: PlasmaComponents.AbstractButton.IconOnly
-                        checked: visible && virtualmonitor.plugin.active
+                        checked: visible && !!virtualmonitor.plugin?.active
                         checkable: true
                         
                         hoverEnabled: true
@@ -255,8 +255,7 @@ PlasmaComponents.ItemDelegate {
                         visible: connectivity.available
                         spacing: Kirigami.Units.smallSpacing
 
-                        // TODO: In the future, when the Connectivity Report plugin supports more than one
-                        // subscription, add more signal strength icons to represent all the available
+                        // TODO: Add more signal strength icons to represent all the available
                         // connections.
 
                         Kirigami.Icon {
