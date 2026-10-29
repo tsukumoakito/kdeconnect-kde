@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-21 00:51+0000\n"
+"POT-Creation-Date: 2026-10-28 01:00+0000\n"
 "PO-Revision-Date: 2026-08-02 22:37+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -108,7 +108,7 @@ msgid "Remote lock failed"
 msgstr "Urruneko giltzatzeak huts egin du"
 
 #: mpriscontrol/mpriscontrolplugin-macos.mm:23
-#: mpriscontrol/mpriscontrolplugin-win.cpp:28
+#: mpriscontrol/mpriscontrolplugin-win.cpp:30
 #, kde-format
 msgctxt ""
 "@title Users select this to control the current media player when we can't "
@@ -116,9 +116,9 @@ msgctxt ""
 msgid "Current Player"
 msgstr "Uneko jotzailea"
 
-#: mpriscontrol/mpriscontrolplugin-win.cpp:98
-#: mpriscontrol/mpriscontrolplugin-win.cpp:99
-#: mpriscontrol/mpriscontrolplugin-win.cpp:100
+#: mpriscontrol/mpriscontrolplugin-win.cpp:94
+#: mpriscontrol/mpriscontrolplugin-win.cpp:95
+#: mpriscontrol/mpriscontrolplugin-win.cpp:96
 #, kde-format
 msgid "N/A"
 msgstr "E/E"
@@ -429,41 +429,41 @@ msgstr "Gorde fitxategiak hemen:"
 msgid "%1 in the path will be replaced with the specific device name"
 msgstr "bide-izeneko %1 gailu-izen zehatzarekin ordezkatuko da"
 
-#: share/shareplugin.cpp:180
+#: share/shareplugin.cpp:162
 #, kde-format
 msgctxt "@info Some piece of text was received from a connected device"
 msgid "Shared text copied to clipboard"
 msgstr "Partekatutako testua arbelera kopiatu da"
 
-#: share/shareplugin.cpp:184
+#: share/shareplugin.cpp:166
 #, kde-format
 msgctxt "@info Some piece of text was received from a connected device"
 msgid "Shared text from %1 copied to clipboard"
 msgstr "%1(e)tik partekatutako testua arbelera kopiatu du"
 
-#: share/shareplugin.cpp:228
+#: share/shareplugin.cpp:210
 #, kde-format
 msgctxt "@action:button Edit text with default text editor"
 msgid "Open in Text Editor"
 msgstr "Ireki testu-editorean"
 
-#: share/shareplugin.cpp:232
+#: share/shareplugin.cpp:214
 #, kde-format
 msgctxt "@action:button Open URL with default app"
 msgid "Open Link"
 msgstr "Ireki esteka"
 
-#: share/shareplugin.cpp:280 share/shareplugin.cpp:285
+#: share/shareplugin.cpp:262 share/shareplugin.cpp:267
 #, kde-format
 msgid "Could not share file"
 msgstr "Ezin izan da fitxategia partekatu"
 
-#: share/shareplugin.cpp:280
+#: share/shareplugin.cpp:262
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 ez da existitzen"
 
-#: share/shareplugin.cpp:285
+#: share/shareplugin.cpp:267
 #, kde-format
 msgid "Permission denied: %1"
 msgstr "Baimena ukatu da: %1"
