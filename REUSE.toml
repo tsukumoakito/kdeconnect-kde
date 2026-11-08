@@ -1,8 +1,90 @@
 # SPDX-FileCopyrightText: 2025 Martin Sh <hemisputnik@proton.me>
-# SPDX-License-Identifier: CC0
+# SPDX-License-Identifier: CC0-1.0
 
 version = 1
 
+# CMake build configuration files (KDE policy: BSD-2-Clause)
+[[annotations]]
+path = [
+    "**/CMakeLists.txt",
+    "cmake/**",
+    "**/*.cmake",
+    "**/*.cmake.in",
+    "**/*.service.in"
+]
+SPDX-FileCopyrightText = "KDE Community"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+# Translations (KDE localization files)
+[[annotations]]
+path = [
+    "po/**",
+    "**/Messages.sh"
+]
+SPDX-FileCopyrightText = "KDE Localization Team"
+SPDX-License-Identifier = "GPL-2.0-or-later OR LicenseRef-KDE-Accepted-GPL"
+
+# Metadata, Desktop entries, D-Bus interfaces, and UI definitions
+[[annotations]]
+path = [
+    "**/*.desktop",
+    "**/*.json",
+    "**/*.xml",
+    "**/*.ui",
+    "**/*.qrc",
+    "**/*.notifyrc",
+    "**/*.contract",
+    "**/*.ufw",
+    "indicator/Info.plist"
+]
+SPDX-FileCopyrightText = "KDE Community"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Documentation and project guidance
+[[annotations]]
+path = [
+    "**/*.md",
+    "**/README*",
+    ".editorconfig",
+    ".gitignore"
+]
+SPDX-FileCopyrightText = "KDE Community"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Graphic assets and icons
+[[annotations]]
+path = [
+    "icons/**"
+]
+SPDX-FileCopyrightText = "KDE Community"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Shell scripts and zsh completion
+[[annotations]]
+path = [
+    "cli/kdeconnect.zsh"
+]
+SPDX-FileCopyrightText = "KDE Community"
+SPDX-License-Identifier = "GPL-2.0-or-later OR LicenseRef-KDE-Accepted-GPL"
+
+# Specific Digitizer plugin schema
 [[annotations]]
 path = "plugins/digitizer/kdeconnect_digitizer.json"
+SPDX-FileCopyrightText = "2025 Martin Sh <hemisputnik@proton.me>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+# Specific files without inline headers
+[[annotations]]
+path = "plugins/mprisremote/albumart_cache.cpp"
+SPDX-FileCopyrightText = "2021 Albert Vaca Cintora <albertvaka@gmail.com>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "core/backends/lan/mdns.h"
+SPDX-FileCopyrightText = "2017 Mattias Jansson"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "core/processhelper.h"
+SPDX-FileCopyrightText = "2021-2026 KDE Connect Contributors"
 SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
