@@ -1,3 +1,8 @@
+/*
+ * SPDX-FileCopyrightText: 2017 Mattias Jansson
+ * SPDX-License-Identifier: CC0-1.0
+ */
+
 /* mdns.h  -  mDNS/DNS-SD library v1.4.3  -  Public Domain  -  2017 Mattias Jansson
  *
  * This library provides a cross-platform mDNS and DNS-SD library in C.
