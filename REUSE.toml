@@ -9,6 +9,1474 @@ path = "po/**"
 SPDX-FileCopyrightText = "KDE Localization Team"
 SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
 
+# ==============================================================================
+# Remaining Project Files (Annotated per KDE Licensing Policy & Git History)
+# ==============================================================================
+[[annotations]]
+path = ".editorconfig"
+SPDX-FileCopyrightText = "Nicolas Fella <nicolas.fella@gmx.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ".gitignore"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "ivan tkachenko <me@ratijas.tk>",
+    "Laurent Montel <montel@kde.org>",
+    "Ashvin Nihalani <ashvin.nihalani@gmail.com>",
+    "Simon Redman <simon@ergotech.com>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ".gitlab/merge_request_templates/Bugfix.md"
+SPDX-FileCopyrightText = "Simon Redman <simon@ergotech.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ".gitlab/merge_request_templates/Feature.md"
+SPDX-FileCopyrightText = "Simon Redman <simon@ergotech.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "AGENTS.md"
+SPDX-FileCopyrightText = "Simon Redman <simon@ergotech.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Astals Cid <aacid@kde.org>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Mice Cagedbird <cagedbird043@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Kai Uwe Broulik <kde@privat.broulik.de>",
+    "Martin Sh <hemisputnik@proton.me>",
+    "Antonio Rojas <arojas@archlinux.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "CONTRIBUTING.md"
+SPDX-FileCopyrightText = [
+    "Simon Redman <simon@ergotech.com>",
+    "Max Kofler <kofler.max.dev@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Jordan Klassen <jordan@klassen.me.uk>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "README.md"
+SPDX-FileCopyrightText = [
+    "rugk me <qpm1d80xf@mozmail.com>",
+    "nicole mikołajczyk <me@mkljczk.pl>",
+    "Levi Zim <rsworktech@outlook.com>",
+    "Kye Potter <annoyingrain5@gmail.com>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Håkon Løvdal <kode@denkule.no>",
+    "Nicolás Alvarez <nicolas.alvarez@gmail.com>",
+    "Simon Redman <simon@ergotech.com>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "app/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Logan Rosen <loganrosen@gmail.com>",
+    "Shreyas Dutta <taj.dutta@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "JC Comp <alan@jcomp.tk>",
+    "Carl Schwan <carl@carlschwan.eu>",
+    "Darshan Phaldesai <dev.darshanphaldesai@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "app/Messages.sh"
+SPDX-FileCopyrightText = "Yuri Chornoivan <yurchor@ukr.net>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "app/org.kde.kdeconnect.app.desktop"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "cli/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "ivan tkachenko <me@ratijas.tk>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>",
+    "Nicolas Fella <nicolas.fella@kdab.com>",
+    "Matthijs Tijink <matthijstijink@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "cli/Messages.sh"
+SPDX-FileCopyrightText = "Albert Vaca <albertvaka@gmail.com>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "cli/kdeconnect.zsh"
+SPDX-FileCopyrightText = "Matthijs Tijink <matthijstijink@gmail.com>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "cmake/DbusActivationMacros.cmake"
+SPDX-FileCopyrightText = "Albert Vaca <albertvaka@gmail.com>"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "config-X11.h.cmake"
+SPDX-FileCopyrightText = "Andreas Sturmlechner <asturm@gentoo.org>"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "core/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Rob Emery <kde@mintsoft.net>",
+    "Simon Redman <simon@ergotech.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "core/Messages.sh"
+SPDX-FileCopyrightText = [
+    "Yuri Chornoivan <yurchor@ukr.net>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "core/backends/bluetooth/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Rob Emery <kde@mintsoft.net>",
+    "Matthijs Tijink <matthijstijink@gmail.com>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Saikrishna Arcot <saiarcot895@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "core/backends/bluetooth/Multiplexing protocol.md"
+SPDX-FileCopyrightText = [
+    "Kunda Ki <luzpaz@pm.me>",
+    "Matthijs Tijink <matthijstijink@gmail.com>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "core/backends/lan/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Erik Duisters <e.duisters1@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Vineet Garg <grg.vineet@gmail.com>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "core/backends/loopback/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Vineet Garg <grgvineet@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "daemon/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Volker Krause <vkrause@kde.org>",
+    "Aleix Pol Gonzalez <aleixpol@kde.org>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "daemon/Messages.sh"
+SPDX-FileCopyrightText = [
+    "Yuri Chornoivan <yurchor@ukr.net>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "daemon/org.kde.kdeconnect.daemon.desktop.cmake"
+SPDX-FileCopyrightText = [
+    "Aleix Pol Gonzalez <aleixpol@kde.org>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Laurent Montel <montel@kde.org>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "daemon/org.kde.kdeconnect.service.in"
+SPDX-FileCopyrightText = [
+    "Volker Krause <vkrause@kde.org>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Rex Dieter <rdieter@math.unl.edu>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "data/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Kai Uwe Broulik <kde@privat.broulik.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Weixuan XIAO <veyx.shaw@gmail.com>",
+    "Heiko Becker <heirecka@exherbo.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "data/kdeconnect-dde.desktop"
+SPDX-FileCopyrightText = "Weixuan XIAO <veyx.shaw@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "data/kdeconnect-thunar.desktop"
+SPDX-FileCopyrightText = "Nicolas Fella <nicolas.fella@gmx.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "data/kdeconnect.contract"
+SPDX-FileCopyrightText = "Nicolas Fella <nicolas.fella@gmx.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "data/kdeconnect.ufw"
+SPDX-FileCopyrightText = "Kai Uwe Broulik <kde@privat.broulik.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "dbusinterfaces/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "declarativeplugin/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "David Redondo <kde@david-redondo.de>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "fileitemactionplugin/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Kai Uwe Broulik <kde@privat.broulik.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Laurent Montel <montel@kde.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "fileitemactionplugin/Messages.sh"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Lukáš Tinkl <lukas@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "fileitemactionplugin/kdeconnectsendfile.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "icons/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "icons/custom_icons.qrc"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "indicator/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>",
+    "Philip Cohn-Cort <cliabhach@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "indicator/Info.plist"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "indicator/Messages.sh"
+SPDX-FileCopyrightText = "Yuri Chornoivan <yurchor@ukr.net>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "indicator/org.kde.kdeconnect.nonplasma.desktop"
+SPDX-FileCopyrightText = [
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Jean Vincent <jean.vincent@posteo.net>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "kio/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Kai Uwe Broulik <kde@privat.broulik.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@kdab.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "kio/Messages.sh"
+SPDX-FileCopyrightText = "Albert Vaca <albertvaka@gmail.com>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "kio/kdeconnect-network.desktop"
+SPDX-FileCopyrightText = "Kai Uwe Broulik <kde@privat.broulik.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "kio/kdeconnect.json"
+SPDX-FileCopyrightText = [
+    "Kai Uwe Broulik <kde@privat.broulik.de>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Erik Duisters <e.duisters1@gmail.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "kio/solid_kdeconnect.desktop"
+SPDX-FileCopyrightText = "Kai Uwe Broulik <kde@privat.broulik.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "models/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "models/Messages.sh"
+SPDX-FileCopyrightText = "Albert Vaca Cintora <albertvaka@gmail.com>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "nautilus-extension/CMakeLists.txt"
+SPDX-FileCopyrightText = "Albert Vaca <albertvaka@gmail.com>"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "nautilus-extension/Messages.sh"
+SPDX-FileCopyrightText = [
+    "Pino Toscano <pino@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "plasmoid/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Aleix Pol <aleixpol@kde.org>",
+    "Prajna Sariputra <putr4.s@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Adam Pigg <adam@piggz.co.uk>",
+    "Elias Probst <mail@eliasprobst.eu>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plasmoid/Messages.sh"
+SPDX-FileCopyrightText = [
+    "Prajna Sariputra <putr4.s@gmail.com>",
+    "Karl Ove Hufthammer <karl@huftis.org>",
+    "Lukáš Tinkl <lukas@kde.org>",
+    "Burkhard Lück <lueck@hube-lueck.de>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "plasmoid/package/metadata.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Christoph Wolk <christoph.wolk@gmx.de>",
+    "Prajna Sariputra <putr4.s@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "David Redondo <kde@david-redondo.de>",
+    "Martin Sh <hemisputnik@proton.me>",
+    "Helmut Grohne <helmut@subdivi.de>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Fushan Wen <qydwhotmail@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Heiko Becker <heiko.becker@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/Messages.sh"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "plugins/README.txt"
+SPDX-FileCopyrightText = [
+    "Rafael Appelt <rafael@appelt.com.br>",
+    "Arjun Thekoot Harisankar <arjunth2001@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/battery/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Philip Cohn-Cort <cliabhach@gmail.com>",
+    "Nicolas Fella <nicolas.fella@kdab.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/battery/README"
+SPDX-FileCopyrightText = [
+    "Philip Cohn-Cort <cliabhach@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/battery/kdeconnect_battery.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Philip Cohn-Cort <cliabhach@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/clipboard/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Yuchen Shi <bolshaya_schists@mail.gravitide.co>",
+    "Méven Car <meven29@gmail.com>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/clipboard/README"
+SPDX-FileCopyrightText = "Aleix Pol <aleixpol@kde.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/clipboard/kdeconnect_clipboard.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Pavel Potemkin <specialforbtsu@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Yuchen Shi <bolshaya_schists@mail.gravitide.co>",
+    "Colin Redman <colinredman0@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/connectivity-report/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "David Shlemayev <david.shlemayev@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/connectivity-report/README"
+SPDX-FileCopyrightText = "David Shlemayev <david.shlemayev@gmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/connectivity-report/kdeconnect_connectivity_report.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "David Shlemayev <david.shlemayev@gmail.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/contacts/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@kdab.com>",
+    "Yuri Chornoivan <yurchor@ukr.net>",
+    "Simon Redman <simon@ergotech.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/contacts/README"
+SPDX-FileCopyrightText = "Simon Redman <simon@ergotech.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/contacts/kdeconnect_contacts.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "David Marzal <invent@residuocero.mozmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Simon Redman <simon@ergotech.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/findmyphone/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Nicolas Fella <nicolas.fella@kdab.com>",
+    "David Edmundson <kde@davidedmundson.co.uk>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/findmyphone/kdeconnect_findmyphone.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "David Edmundson <kde@davidedmundson.co.uk>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/findthisdevice/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Carl Schwan <carl@carlschwan.eu>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/findthisdevice/kdeconnect_findthisdevice.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/kdeconnect.notifyrc"
+SPDX-FileCopyrightText = [
+    "Martin Sh <hemisputnik@proton.me>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Bharadwaj Raju <bharadwaj.raju777@protonmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Kai Uwe Broulik <kde@privat.broulik.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/kdeconnect.schema.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/lockdevice/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/lockdevice/kdeconnect_lockdevice.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/mmtelephony/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Heiko Becker <heiko.becker@kde.org>",
+    "Yoram Bar-Haim <bhyoram@protonmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/mmtelephony/README"
+SPDX-FileCopyrightText = "Yoram Bar-Haim <bhyoram@protonmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/mmtelephony/kdeconnect_mmtelephony.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Yoram Bar-Haim <bhyoram@protonmail.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/mousepad/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Aleix Pol i Gonzalez <aleixpol@kde.org>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "David Redondo <kde@david-redondo.de>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Volker Krause <vkrause@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/mousepad/README"
+SPDX-FileCopyrightText = "Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/mousepad/kdeconnect_mousepad.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Holger Kaelberer <holger.k@elberer.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/mpriscontrol/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Jun Bo Bi <jambonmcyeah@gmail.com>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Yuri Chornoivan <yurchor@ukr.net>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/mpriscontrol/README"
+SPDX-FileCopyrightText = [
+    "Kunda Ki <luzpaz@pm.me>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/mpriscontrol/kdeconnect_mpriscontrol.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/mprisremote/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Krut Patel <kroot.patel@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Matthijs Tijink <matthijstijink@gmail.com>",
+    "Nicolas Fella <nicolas.fella@kdab.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/mprisremote/kdeconnect_mprisremote.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/notifications/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Kristen McWilliam <kmcwilliampublic@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Bharadwaj Raju <bharadwaj.raju777@protonmail.com>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/notifications/README"
+SPDX-FileCopyrightText = [
+    "Youssef Al-Bor3y <youssefelbor3y@protonmail.com>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/notifications/kdeconnect_notifications.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Julian Wolff <wolff@julianwolff.de>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Markus S <kamikazow@web.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/notifications/sendreplydialog.ui"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/pausemusic/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/pausemusic/README"
+SPDX-FileCopyrightText = "Aleix Pol <aleixpol@kde.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/pausemusic/kdeconnect_pausemusic.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/ping/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Adam Pigg <adam@piggz.co.uk>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Àlex Fiestas <afiestas@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/ping/README"
+SPDX-FileCopyrightText = [
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/ping/kdeconnect_ping.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/presenter/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Aleix Pol <aleixpol@kde.org>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/presenter/assets.qrc"
+SPDX-FileCopyrightText = "Aleix Pol <aleixpol@kde.org>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/presenter/kdeconnect_presenter.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Simon Redman <simon@ergotech.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/remotecommands/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@kdab.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/remotecommands/kdeconnect_remotecommands.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Jean Vincent <jean.vincent@posteo.net>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/remotecontrol/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/remotecontrol/kdeconnect_remotecontrol.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/remotekeyboard/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@kdab.com>",
+    "Holger Kaelberer <holger.k@elberer.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/remotekeyboard/README"
+SPDX-FileCopyrightText = [
+    "Holger Kaelberer <holger.k@elberer.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/remotekeyboard/kdeconnect_remotekeyboard.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Jean Vincent <jean.vincent@posteo.net>",
+    "Holger Kaelberer <holger.k@elberer.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/remotesystemvolume/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/remotesystemvolume/kdeconnect_remotesystemvolume.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/runcommand/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Łukasz Patron <priv.luk@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Doron Behar <doron.behar@gmail.com>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Richard Liebscher <r1tschy@posteo.de>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/runcommand/kdeconnect_runcommand.json"
+SPDX-FileCopyrightText = [
+    "Johann Specht <sajeg.dev@gmail.com>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/screensaver-inhibit/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/screensaver-inhibit/README"
+SPDX-FileCopyrightText = "Pramod Dematagoda <pmdematagoda@mykolab.ch>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/screensaver-inhibit/kdeconnect_screensaver_inhibit.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/sendnotifications/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Florian Achleitner <flo@fopen.at>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Tobias C. Berner <tcberner@FreeBSD.org>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Fushan Wen <qydwhotmail@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/sendnotifications/kdeconnect_sendnotifications.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Adam Pigg <adam@piggz.co.uk>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Jean Vincent <jean.vincent@posteo.net>",
+    "Burkhard Lück <lueck@hube-lueck.de>",
+    "Frederik Schwarzer <schwarzer@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/sendnotifications/pw_libnotificationmanager/CMakeLists.txt"
+SPDX-FileCopyrightText = "Florian Achleitner <flo@fopen.at>"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/sendnotifications/pw_libnotificationmanager/Readme.md"
+SPDX-FileCopyrightText = "Florian Achleitner <flo@fopen.at>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/sftp/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Kai Uwe Broulik <kde@privat.broulik.de>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/sftp/README"
+SPDX-FileCopyrightText = [
+    "Mark Dominus <mjd@plover.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/sftp/config-sftp.h.cmake"
+SPDX-FileCopyrightText = "Tobias C. Berner <tcberner@FreeBSD.org>"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/sftp/kdeconnect_sftp.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/share/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "ivan tkachenko <me@ratijas.tk>",
+    "Bharadwaj Raju <bharadwaj.raju777@protonmail.com>",
+    "Volker Krause <vkrause@kde.org>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/share/README"
+SPDX-FileCopyrightText = "Aleix Pol <aleixpol@kde.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/share/kdeconnect_share.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Erik Duisters <e.duisters1@gmail.com>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/shareinputdevices/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "David Redondo <kde@david-redondo.de>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/shareinputdevices/README"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "David Redondo <kde@david-redondo.de>"
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/shareinputdevices/kdeconnect_shareinputdevices.json"
+SPDX-FileCopyrightText = "David Redondo <kde@david-redondo.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/shareinputdevicesremote/CMakeLists.txt"
+SPDX-FileCopyrightText = "David Redondo <kde@david-redondo.de>"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/shareinputdevicesremote/kdeconnect_shareinputdevicesremote.json"
+SPDX-FileCopyrightText = "David Redondo <kde@david-redondo.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/sms/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Heiko Becker <heiko.becker@kde.org>",
+    "Volker Krause <vkrause@kde.org>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Simon Redman <simon@ergotech.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/sms/kdeconnect_sms.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Aniket Kumar <anikketkumar786@gmail.com>",
+    "Simon Redman <simon@ergotech.com>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/systemvolume/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Volker Krause <vkrause@kde.org>",
+    "Art Pinch <leonardo906@mail.ru>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>",
+    "Jun Bo Bi <jambonmcyeah@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/systemvolume/README"
+SPDX-FileCopyrightText = "Nicolas Fella <nicolas.fella@gmx.de>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/systemvolume/kdeconnect_systemvolume.json"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Nicolas Fella <nicolas.fella@gmx.de>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/telephony/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Antonio Larrosa <antonio.larrosa@gmail.com>",
+    "Simon Redman <simon@ergotech.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/telephony/README"
+SPDX-FileCopyrightText = "Aleix Pol <aleixpol@kde.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/telephony/kdeconnect_telephony.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Simon Redman <simon@ergotech.com>",
+    "Aleix Pol <aleixpol@kde.org>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Albert Vaca <albertvaka@gmail.com>",
+    "Jean Vincent <jean.vincent@posteo.net>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "plugins/virtualmonitor/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Aleix Pol <aleixpol@kde.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "plugins/virtualmonitor/README"
+SPDX-FileCopyrightText = "Aleix Pol <aleixpol@kde.org>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "plugins/virtualmonitor/kdeconnect_virtualmonitor.json"
+SPDX-FileCopyrightText = [
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "ivan tkachenko <me@ratijas.tk>",
+    "Fabian Arndt <fabian.arndt@root-core.net>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "smsapp/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Bill Sterzenbach <bill@sterzenbach.com>",
+    "Yuki Joou <yukijoou@kemonomimi.gay>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "smsapp/Messages.sh"
+SPDX-FileCopyrightText = "Yuri Chornoivan <yurchor@ukr.net>"
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "smsapp/org.kde.kdeconnect.sms.desktop"
+SPDX-FileCopyrightText = [
+    "Christoph Wolk <christoph.wolk@gmx.de>",
+    "Nate Graham <nate@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "tests/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Mice Cagedbird <cagedbird043@gmail.com>",
+    "Kristen McWilliam <kmcwilliampublic@gmail.com>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Volker Krause <vkrause@kde.org>",
+    "Weixuan Xiao <veyx.shaw@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "urlhandler/CMakeLists.txt"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Antonio Rojas <arojas@archlinux.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Andreas Sturmlechner <asturm@gentoo.org>",
+    "Alexander Lohnau <alexander.lohnau@gmx.de>",
+    "Friedrich W. H. Kossebau <kossebau@kde.org>",
+    "Volker Krause <vkrause@kde.org>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>"
+]
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = "urlhandler/Messages.sh"
+SPDX-FileCopyrightText = [
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL"
+
+[[annotations]]
+path = "urlhandler/dialog.ui"
+SPDX-FileCopyrightText = [
+    "Albert Vaca Cintora <albertvaka@gmail.com>",
+    "Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "Laurent Montel <montel@kde.org>",
+    "Nicolas Fella <nicolas.fella@gmx.de>",
+    "Aleix Pol <aleixpol@kde.org>"
+]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "urlhandler/org.kde.kdeconnect.handler.desktop"
+SPDX-FileCopyrightText = "Nicolas Fella <nicolas.fella@gmx.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+
 [[annotations]]
 path = "plugins/digitizer/kdeconnect_digitizer.json"
 SPDX-FileCopyrightText = "2025 Martin Sh <hemisputnik@proton.me>"
