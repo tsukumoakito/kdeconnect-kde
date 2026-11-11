@@ -3,6 +3,28 @@
 
 version = 1
 
+# ==============================================================================
+# Application Icons (per KDE Licensing Policy Section 9: Icons should be CC-BY-SA-4.0)
+# ==============================================================================
+[[annotations]]
+path = "icons/windows/*-apps-kdeconnect.png"
+SPDX-FileCopyrightText = "2025 Albert Vaca Cintora <albertvaka@gmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "icons/app/sc-apps-kdeconnect.svg"
+SPDX-FileCopyrightText = [
+    "2020 Piyush Aggarwal <piyushaggarwal002@gmail.com>",
+    "2025 Albert Vaca Cintora <albertvaka@gmail.com>",
+]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "icons/app/sc-apps-kdeconnectindicator*.svg"
+SPDX-FileCopyrightText = "2020 Piyush Aggarwal <piyushaggarwal002@gmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+
 # Translations (Mandated by KDE Licensing Policy Section 4 & PO header declarations)
 [[annotations]]
 path = "po/**"
