@@ -19,3 +19,42 @@ SPDX-License-Identifier = "GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accept
 path = "dbusinterfaces/systeminterfaces/org.freedesktop.portal.*.xml"
 SPDX-FileCopyrightText = "Red Hat, Inc."
 SPDX-License-Identifier = "LGPL-2.0-or-later"
+
+# AppStream Metadata (self-declared <metadata_license>CC0-1.0</metadata_license>)
+[[annotations]]
+path = "data/org.kde.kdeconnect.metainfo.xml"
+SPDX-FileCopyrightText = "KDE Connect contributors"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Avahi D-Bus definitions (Upstream Avahi Project - LGPL-2.1-or-later)
+[[annotations]]
+path = "dbusinterfaces/systeminterfaces/org.freedesktop.Avahi.*.xml"
+SPDX-FileCopyrightText = "Avahi developers"
+SPDX-License-Identifier = "LGPL-2.1-or-later"
+
+# MPRIS 2 D-Bus definitions (MPRIS specifications - Mirco Müller, Alex Merry)
+[[annotations]]
+path = "dbusinterfaces/systeminterfaces/org.mpris.MediaPlayer2*.xml"
+SPDX-FileCopyrightText = [
+    "Mirco Müller <macslow@bangang.de>",
+    "Alex Merry <alex.merry@kdemail.net>",
+]
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+# Systemd login1 D-Bus definitions (systemd - LGPL-2.1-or-later)
+[[annotations]]
+path = "dbusinterfaces/systeminterfaces/org.freedesktop.login1.xml"
+SPDX-FileCopyrightText = "systemd developers"
+SPDX-License-Identifier = "LGPL-2.1-or-later"
+
+# FreeDesktop ScreenSaver & DBus Properties definitions
+[[annotations]]
+path = "dbusinterfaces/systeminterfaces/org.freedesktop.ScreenSaver.xml"
+SPDX-FileCopyrightText = "FreeDesktop developers"
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
+[[annotations]]
+path = "dbusinterfaces/systeminterfaces/org.freedesktop.DBus.Properties.xml"
+SPDX-FileCopyrightText = "Red Hat, Inc."
+SPDX-License-Identifier = "GPL-2.0-or-later"
+
