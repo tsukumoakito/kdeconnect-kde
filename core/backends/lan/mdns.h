@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2017 Mattias Jansson
+ * SPDX-FileCopyrightText: 2017 Mattias Jansson <mjansson@gmail.com>
  * SPDX-License-Identifier: CC0-1.0
  */
 
